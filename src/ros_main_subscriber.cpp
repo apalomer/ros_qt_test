@@ -9,7 +9,7 @@ int main(int argc, char** argv){
     QApplication app (argc, argv);
 
     // Initialize ROS
-    ros::init(argc,argv,"qt_test_display");
+    ros::init(argc,argv,"ros_qt_test_display");
     ros::NodeHandle nh;
 
     displayTextWidgetROS dtwr(nh);

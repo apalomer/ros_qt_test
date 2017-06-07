@@ -1,4 +1,4 @@
 <launch>
-    <node name="publisher" pkg="qt_test" type="ros_main_publisher" output="screen"/>
-    <node name="subscriber" pkg="qt_test" type="ros_main_subscriber" output="screen"/>
+    <node name="publisher" pkg="ros_qt_test" type="ros_main_publisher" output="screen"/>
+    <node name="subscriber" pkg="ros_qt_test" type="ros_main_subscriber" output="screen"/>
 </launch>
